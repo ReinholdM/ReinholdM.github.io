@@ -1,7 +1,7 @@
 ## Hello and welcome to Linghui's blog.
 
-![chatting](images/logo.png)
+![chatting](images/capture_20191229122301725.bmp)
 
-## This is a title
+## Waitting for updating ...
 
-And you can include links, like this [link to fast.ai](https://www.fast.ai).
+And you can include links, like this [link to creed](http://m.1juzi.com/new/40167.html).
