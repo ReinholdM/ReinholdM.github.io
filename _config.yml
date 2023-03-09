@@ -7,8 +7,8 @@ version: 2
 
 # Personal info
 name: Joanna Hong
-title: Ph.D. candidate at Korea Advanced Institute of Science and Technology
-email: joanna2587@kaist.ac.kr
+title: Ph.D. candidate at Institute of Automation, Chinese Academy of Sciences
+email: menglinghui2019@ia.ac.cn
 # website: www.github.com/joannahong
 
 # Dark Mode (true/false/never)
@@ -16,7 +16,7 @@ darkmode: never
 
 # Social links
 #twitter_username: facespics
-github_username:  joannahong
+github_username:  ReinholdM
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
