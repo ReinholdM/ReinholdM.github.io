@@ -32,7 +32,7 @@ linkedin_username: Reinhold Meng
 # Additional icon links
 additional_links:
 - title: google-scholar
-  icon: fas fa-google
+  icon: fab fa-google
   url: https://scholar.google.com/citations?user=YF0Hy1sAAAAJ&hl=en
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
