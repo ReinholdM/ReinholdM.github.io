@@ -1,322 +1,55 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Content configuration version
-version: 2
-
-# Personal info
-name: Joanna Hong
-title: Ph.D. candidate at Institute of Automation, Chinese Academy of Sciences
-email: menglinghui2019@ia.ac.cn
-# website: www.github.com/joannahong
-
-# Dark Mode (true/false/never)
-darkmode: never
-
-# Social links
-#twitter_username: facespics
-github_username:  ReinholdM
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: joxoxoanna
-linkedin_username: joanna2587
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: google-scholar
-  icon: fab fa-google
-  url: https://scholar.google.com/citations?user=wqvP0D8AAAAJ&hl=en
-# - title: curriculum-vitae
-#   icon: fab fa-list
-#   url: https://drive.google.com/file/d/1L3ExTNkiXotIG0JtzqKBUwTM3HLPpBQn/view?usp=share_link
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
-about_profile_image: images/joannahong_scholar2.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hello, my name is Joanna Hong, a Ph.D. candidate in Electrical Engineering at Korea Advanced Institute of Science and Technology. 
-  I am researching in Image and Video Systems Lab., under the supervision of Professor Yong Man Ro. 
- 
-  My major research area is multi-modal representation learning and human interactive learning. 
-  I am more focusing on integrating audio, video, and text modalities in human dialogue system, especially lipreading, lip-to-speech synthesis, and audio-visual speech recognition. 
-  I am also interested in machine translation, speech enhancement, and speech separation using multi-modal representations. 
-  
-  <a href="https://drive.google.com/file/d/1L3ExTNkiXotIG0JtzqKBUwTM3HLPpBQn/view?usp=share_link" style="color: black; text-decoration: underline;" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
-  
-  <br>
-  <img src="images/Meta_logo.gif" width="110px" margin-bottom="300%"> &ensp; I will be joining in **Meta Reality Labs Research Team** as a research intern in June 2023.
-  
-content:
-#   - title: Experience # Title for the section
-#     layout: list # Type of content section (list/text)
-#     content:
-#       - layout: left
-#         title: The Boring Company
-#         link: boringcompany.com
-#         # link_text: boringcompany.com
-#         sub_title: Senior Network System Administrator
-#         caption: November 2017 - Present
-#         quote: >
-#           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-#         description: | # this will include new lines to allow paragraphs
-#             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Ph.D. candidate
-        caption: 2019 - Present
-        sub_title: Electrical Engineering
-#         quote: |
-#          <img src="images/KAIST_logo_trans(Single Color).png" width="150px" margin-bottom="-300%"> 
-#       - layout: top-middle
-# #         title: 
-#         caption: 2019 - 2020
-#         sub_title: M.S. degree, Electrical Engineering
-#         quote: Korea Advanced Institute of Science and Technology
-      - layout: top-middle
-        title: |
-          B.S. degree
-        caption: 2014 - 2019
-        sub_title: Electrical Engineering
-#         quote: >
-#           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        quote: |
-         <img src="images/KAIST_logo_trans(Single Color).png" width="150px"> 
-#         Korea Advanced Institute of Science and Technology # this will include new lines to allow paragraphs
-        
-  - title: Publications
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-     
-      <mark>International Conference</mark>
-      - *Watch or Listen: Robust Audio-Visual Speech Recognition with Visual Corruption Modeling and Reliability Scoring*
-      
-         **Joanna Hong<span>&#42;</span>**, Minsu Kim<span>&#42;</span>, Jeongsoo Choi, and Yong Man Ro **(<span>&#42;</span> equally contributed)**
-         
-         IEEE/CVF Conference on Computer Vision and Pattern Recognition **(CVPR), 2023**
-         
-      - *Lip-to-Speech Synthesis in the Wild with Multi-task Learning* <a href="https://arxiv.org/pdf/2302.08841.pdf" style="color: black;" target="_blank">[link]</a>
-      
-         Minsu Kim<span>&#42;</span>, **Joanna Hong<span>&#42;</span>**, and Yong Man Ro **(<span>&#42;</span> equally contributed)**
-         
-         IEEE International Conference on Acoustics, Speech and Signal Processing **(ICASSP), 2023**
-         
-      - *VisageSynTalk: Unseen Speaker Video-to-Speech Synthesis via Speech-Visage Feature Selection* <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136960445.pdf" style="color: black;" target="_blank">[link]</a>
-      
-        **Joanna Hong**, Minsu Kim, Yong Man Ro
-        
-        European Conference on Computer Vision **(ECCV), 2022**
-      
-      - *Visual Context-driven Audio Feature Enhancement for Robust End-to-End Audio-Visual Speech Recognition* <a href="https://www.isca-speech.org/archive/pdfs/interspeech_2022/hong22_interspeech.pdf" style="color: black;" target="_blank">[link]</a>
-      
-        **Joanna Hong<span>&#42;</span>**, Minsu Kim<span>&#42;</span>, Daehun Yoo, and Yong Man Ro **(<span>&#42;</span> equally contributed)**
-        
-        **Interspeech, 2022 (Oral)**
-      
-      - *SyncTalkFace: Talking Face Generation with Precise Lip-syncing via Audio-Lip Memory* <a href="https://www.aaai.org/AAAI22Papers/AAAI-7528.ParkS.pdf" style="color: black;" target="_blank">[link]</a>
-      
-         Se Jin Park, Minsu Kim, **Joanna Hong**, Jeongsoo Choi, and Yong Man Ro
-        
-         AAAI Conference on Artificial Intelligence **(AAAI), 2022 (Oral)**
-         
-      - *Lip to Speech Synthesis with Visual Context Attentional GAN* <a href="https://proceedings.neurips.cc/paper/2021/file/16437d40c29a1a7b1e78143c9c38f289-Paper.pdf" style="color: black;" target="_blank">[link]</a>
-      
-         Minsu Kim, **Joanna Hong**, Yong Man Ro
-        
-         Conference on Neural Information Processing Systems **(NeuIPS), 2021**
-         
-       - *Multi-Modality Associative Bridging Through Memory: Speech Sound Recollected From Face Video* <a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Multi-Modality_Associative_Bridging_Through_Memory_Speech_Sound_Recollected_From_Face_ICCV_2021_paper.pdf" style="color: black;" target="_blank">[link]</a>
-      
-          Minsu Kim<span>&#42;</span>, **Joanna Hong<span>&#42;</span>**, Se Jin Park, Yong Man Ro **(<span>&#42;</span> equally contributed)**
-        
-          IEEE/CVF International Conference on Computer Vision **(ICCV), 2021**
-         
-        - *Unsupervised Disentangling of Viewpoint and Residues Variations by Substituting Representations for Robust Face Recognition* <a href="https://ieeexplore.ieee.org/document/9413039" style="color: black;" target="_blank">[link]</a>
-      
-          Minsu Kim, **Joanna Hong**, Junho Kim, Hong Joo Lee, and Yong Man Ro
-        
-          International Conference on Pattern Recognition **(ICPR), 2021**
-         
-        - *Comprehensive Facial Expression Synthesis Using Human-Interpretable Language* <a href="https://arxiv.org/abs/2007.08154" style="color: black;" target="_blank">[link]</a>
-      
-          **Joanna Hong**, Jung Uk Kim, Sangmin Lee, Yong Man Ro
-        
-          IEEE International Conference on Image Processing **(ICIP), 2020**
-         
-        - *Learning Style Correlation For Elaborate Few-Shot Classification* <a href="https://ieeexplore.ieee.org/document/9190685" style="color: black;" target="_blank">[link]</a>
-      
-          Junho Kim, Minsu Kim, Jung Uk Kim, Hong Joo Lee, Sangmin Lee, **Joanna Hong**, Yong Man Ro
-        
-          IEEE International Conference on Image Processing **(ICIP), 2020**
-         
-        - *Face Tells Detailed Expression: Generating Comprehensive Facial Expression Sentence Through Facial Action Units* <a href="https://dl.acm.org/doi/abs/10.1007/978-3-030-37734-2_9" style="color: black;" target="_blank">[link]</a>
-      
-          **Joanna Hong**, Hong Joo Lee, Yelin Kim, and Yong Man Ro
-        
-          International Conference on Multimedia Modeling **(MMM), 2020**
-                
-      <mark>International Journal</mark>
-      - *Speech Reconstruction with Reminiscent Sound via Visual Voice Memory* <a href="https://ieeexplore.ieee.org/document/9618777" style="color: black;" target="_blank">[link]</a>
-      
-         **Joanna Hong**, Minsu Kim, Se Jin Park, Yong Man Ro
-         
-         IEEE/ACM Transactions on Audio, Speech, and Language Processing **(TASLP), 2021**
-         
-      - *Cromm-vsr: Cross-modal memory augmented visual speech recognition* <a href="https://ieeexplore.ieee.org/abstract/document/9566778" style="color: black;" target="_blank">[link]</a>
-      
-         Minsu Kim, **Joanna Hong**, Se Jin Park, Yong Man Ro
-         
-         IEEE Transactions on Multimedia **(TMM), 2021**
-         
-         
-  - title: Experiences # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: |
-          <img src="images/Meta_logo.gif" width="120px" margin-bottom="300%"> <br>
-        link: https://about.meta.com/realitylabs/
-        sub_title: Research Scientist Intern
-        caption: June 2023 - October 2023 (expected)
-        description:  | # this will include new lines to allow paragraphs
-          I will be joining Audio Machine Learning and Computer Vision research team in Meta Reality Labs under Anurag Kumar. 
-          The team focus on audio signal processing, machine learning and audio visual learning to solve important audio-driven problems for AR/VR applications.
-          I am expected to have projects regarding multimodal representation learning, audio visual scene analysis, egocentric audio visual learning, multi-sensory speech enhancement and acoustic activity localization.
-        
-        
-      - layout: left
-        title: AI World Cup
-        link: http://aiworldcup.org/
-        # link_text: boringcompany.com
-        sub_title: Organizing Committee
-        caption: June 2018
-#         quote: >
-#           True 3D Smart Factory Solutions, Powered by Artificial Intelligence
-        description: | # this will include new lines to allow paragraph
-          AI technology is considered as the most powerful and influential technology with regard to Industry 4.0. The AI World Cup will be the proper venue for competition with AI technology.
-          I was a part of the organizing committee members of AI World Cup competition, that design the rule of the competition and manage the participants.
-          
-      - layout: left
-        title: Koh Young Technology
-        link: https://www.kohyoung.com/
-        # link_text: boringcompany.com
-        sub_title: Intern
-        caption: September 2017 - February 2018
-#         quote: >
-#           True 3D Smart Factory Solutions, Powered by Artificial Intelligence
-        description: | # this will include new lines to allow paragraphs
-          Koh Young Technology is a world leader in 3D measurement and inspection technology used in the production of electronic assemblies, powered by artificial intelligence. 
-          As a research intern, I worked on adjusting control parameter of screen printers using opimization algorithms based on machine learning.
-        #Using patented Shadow-Free Moire’ 3D measurement technology, Koh Young provide be st-in-class Solder Paste Inspection (SPI) and Automated Optical Inspection (AOI) for electronics manufacturers worldwide.
-
-  - title: Patent # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: US/European/ Chinese/Korean Patent
-#         link: https://www.kohyoung.com/
-        # link_text: boringcompany.com
-        sub_title: Duk Young Lee, Chan Woo Park, Tae Min Choi, <i>Joanna Hong</i>
-        caption: <i>Koh Young Technology, Inc.</i>
-#                  <br> 28 August 2019        
-        quote: >
-          <b>"Apparatus and Method of Generating Control Parameter of Screen Printer"</b>
-        description: | # this will include new lines to allow paragraphs
-            The apparatus includes a memory that stores a simulation model configured to derive predictive inspection information on a printed state of solder paste based on a plurality of control parameters of the screen printer.
-        #; a communication circuit configured to receive first inspection information on a plurality of solder pastes printed by the screen printer based on a first control parameter, and a processor electrically connected to the memory and the communication circuit.
-
-  - title: Professional Activities
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      <mark>Honors</mark>
-      - **Representative of Image and Video Systems Lab. (Jan. 2023 - Present)**
-      
-         Korea Advanced Institute of Science and Technology (KAIST)
-         
-      - **Outstanding Teaching Assistant Award (2021)**
-      
-         Korea Advanced Institute of Science and Technology (KAIST)
-         
-      - **National Government Fellowship (2014 - Present)**
-         Government of South Korea
-      
-      <mark>Reviews</mark>
-      - **Conference**
-      
-         International Conference on Machine Learning (2021, 2022, 2023)
-         
-         Neural Information Processing Systems (2020, 2022)
-         
-      <mark>Teachings</mark>
-      - **EE474 Introduction to Multimedia, KAIST (2020, 2021, 2022, 2023)**
-         Programming Lecturer & Teaching Assistant
-         
-      - **EE837 Multimedia Processing and Learning, KAIST (2022)**
-      
-         Teaching Assistant
-      
-      - **EE534 Pattern Recognition, KAIST (2021)**
-         Teaching Assistant
-         
-#       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-#       - Rock climbing
-#       - Gaming
-#       - Knitting
-#       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-#       Look at this cool image  
-#       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
-#   - title: Publications # Title for the section
-#     layout: list # Type of content section (list/text)
-#     content:
-#       - layout: left
-#         title: Super awesome project
-#         link: github.com/sproogen
-#         # link_text: Project Website
-#         additional_links:
-#           - title:  sproogen/modern-resume-theme
-#             icon: fab fa-github
-#             url: github.com/sproogen/modern-resume-theme
-#           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#           #   icon: fab fa-github
-#           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#         quote: >
-#           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-#         description: | # this will include new lines to allow paragraphs
-#           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-        
-#           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
+theme: minima
 plugins:
- - jekyll-seo-tag
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
