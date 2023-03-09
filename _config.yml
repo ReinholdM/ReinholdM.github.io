@@ -112,7 +112,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       - *Promoting Coordination Through Electing First-move Agent in Multi-Agent Reinforcement Learning*
 
-        Jingqing Ruan<span>&#42;</span>, **Linghui Meng**, Xuantang Xiong, Dengpeng Xing, Bo Xu **(<span>&#42;</span> equally contributed)**
+        **Linghui Meng<span>&#42;</span>**, Jingqing Ruan<span>&#42;</span>, Xuantang Xiong, Dengpeng Xing, Bo Xu **(<span>&#42;</span> equally contributed)**
 
         International Conference on Automated Planning and Scheduling **(ICAPS), 2023**
 
@@ -145,6 +145,12 @@ content:
         Jingqing Ruan, Yali Du, Xuantang Xiong, Dengpeng Xing, Xiyun Li, **Linghui Meng**, Haifeng Zhang, Jun Wang, Bo Xu
 
         International Conference on Automated Planning and Scheduling **(ICAPS), 2023**
+
+      - *Learning in Bi-level Markov Games*
+
+        **Linghui Meng**, Jingqing Ruan, Dengpeng Xing, Bo Xu 
+
+        International Joint Conference on Neural Networks **(IJCNN), 2022**
         
 
 # Footer
