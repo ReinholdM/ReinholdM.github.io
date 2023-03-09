@@ -161,46 +161,46 @@ content:
   - title: Professional Activities
     layout: text
     content: |
-    <mark>Honors</mark>
-    - **A member of the first experimental class of direct doctoral students in CASIA.**
+      <mark>Honors</mark>
+      - **A member of the first experimental class of direct doctoral students in CASIA.**
 
-    - **National Undergraduate Electronics Design Contest (National, First Prize)**
+      - **National Undergraduate Electronics Design Contest (National, First Prize)**
 
-    - **National Encouragement Scholarship**
+      - **National Encouragement Scholarship**
 
-    <mark>Skills</mark>
+      <mark>Skills</mark>
 
-    - **End-toend ASR**
+      - **End-toend ASR**
 
-      Speech augmentation for low resource speech recognition, supervised by [Xu Tan](https://www.microsoft.com/en-us/research/people/xuta/)
+        Speech augmentation for low resource speech recognition, supervised by [Xu Tan](https://www.microsoft.com/en-us/research/people/xuta/)
 
-    - **MARL on Football**
+      - **MARL on Football**
 
-      Integrating Pareto-optimal reward shaping and population-based training for MARL on Football Game
+        Integrating Pareto-optimal reward shaping and population-based training for MARL on Football Game
 
-    - **Asynchronous RL**
+      - **Asynchronous RL**
 
-      Enforcing the gradient messaging between multiple devices for efficient reinforcement learning on the Wargame.
+        Enforcing the gradient messaging between multiple devices for efficient reinforcement learning on the Wargame.
 
-    - **Safety RL**
+      - **Safety RL**
 
-      Working on intervent the agent avoiding taking the dangerous actions.
+        Working on intervent the agent avoiding taking the dangerous actions.
 
-    - **MARL baselines**
+      - **MARL baselines**
 
-      Implementing the discrete version of [optimal baselines for multi-agent policy gradient methods](https://proceedings.neurips.cc/paper/2021/file/6fe6a8a6e6cb710584efc4af0c34ce50-Paper.pdf).
+        Implementing the discrete version of [optimal baselines for multi-agent policy gradient methods](https://proceedings.neurips.cc/paper/2021/file/6fe6a8a6e6cb710584efc4af0c34ce50-Paper.pdf).
 
 
-    <mark>Reviews</mark>
-    - **Conferences**
+      <mark>Reviews</mark>
+      - **Conferences**
 
-      International Conference on Machine Learning (2022, 2023)
+        International Conference on Machine Learning (2022, 2023)
 
-      Advances in Neural Information Processing Systems (2022, 2023)
+        Advances in Neural Information Processing Systems (2022, 2023)
 
-    - **Journal**
+      - **Journal**
 
-      IEEE Signal Processing Letters
+        IEEE Signal Processing Letters
 
 # Footer
 footer_show_references: true
