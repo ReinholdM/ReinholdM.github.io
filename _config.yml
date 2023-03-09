@@ -95,6 +95,8 @@ content:
         title: Ph.D. candidate
         caption: 2019 - Present
         sub_title: Pattern Recognition and Intelligent Systems
+        quote: |
+         <img src="images/casia_logo.png" width="150px"> 
         # quote: >
         #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         # description: | # this will include new lines to allow paragraphs
@@ -106,6 +108,8 @@ content:
           B.S. degree
         caption: 2015 - 2019
         sub_title: Electrical Engineering
+        quote: |
+         <img src="images/bjtu_logo.jpg" width="150px"> 
 
   - title: Publications
     layout: text
