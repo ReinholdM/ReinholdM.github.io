@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/linghui_profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello, I'm a Fourth-year PhD Student in CASIA working in multi-agent reinforcement learning. I graduated from Beijing Jiaotong University in July 2019.
+  Hello, I'm a Fourth-year PhD Student in CASIA working in pre-training big models on speech and multi-agent reinforcement learning. I graduated from Beijing Jiaotong University in July 2019.
 
   I am interested in probabilistic graphical model, generative model, contrastive learning and multi-agent reinforcement learning. Recently I worked on MARL applied on video game and route packeging. I also serve as a reviewer on International Conference on Machine Learning (ICML) and Neural Information Processing Systems (NeurIPS).
 
