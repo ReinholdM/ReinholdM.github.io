@@ -17,23 +17,38 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Content configuration version
+version: 2
+
+# Personal info
+name: Linghui Meng
+title: Ph.D candidate at Institute of Automation, Chinese Academy of Sciences
+email: menglinghui2019@ia.ac.cn
+
+# Dark Mode (true/false/never)
+darkmode: never
+# description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  ReinholdM
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# # Build settings
+# theme: minima
+# plugins:
+#   - jekyll-feed
 
+# Additional icon links
+additional_links:
+- title: google-scholar
+  icon: fab fa-google
+  url: https://scholar.google.com/citations?user=YF0Hy1sAAAAJ&hl=en
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -53,3 +68,35 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# About Section
+# about title: About Me
+about_profile_image: images/linghui.jpg
+about_content: |
+  I'm a Fourth-year PhD Student in CASIA working in multi-agent reinforcement learning. I graduated from Beijing Jiaotong University in July 2019.
+
+  I am interested in probabilistic graphical model, generative model, contrastive learning and multi-agent reinforcement learning. Recently I worked on MARL applied on video game and route packeging. I also serve as a reviewer on International Conference on Machine Learning (ICML) and Neural Information Processing Systems (NeurIPS).
+
+
+
+
+
+
+
+
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
